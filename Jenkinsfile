@@ -20,8 +20,5 @@ pipeline {
                 sh 'python -m unittest'
             }
         }
-        stage('Deliver') { 
-            
-        }
     }
 }
